@@ -7,8 +7,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="blog-admin" />
         <module name="blog-api" />
+        <module name="untitled" />
+        <module name="blog-admin" />
       </profile>
     </annotationProcessing>
   </component>
@@ -16,6 +17,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="blog-admin" options="-parameters" />
       <module name="blog-api" options="-parameters" />
+      <module name="untitled" options="-parameters" />
     </option>
   </component>
 </project>
